@@ -6,8 +6,8 @@
 let login = "gt123"
 let senha = "1233456"
 
-if (login == "gt123") {
-    console.log ("Página liberada")
+if (login == "gt123" && senha == 123456) {
+    console.log ("redicionando para painel")
 } else { (login == "GT123")
-    console.log ("Dados incorretos")
+    console.log ("Erro, favor digite dados corretamente")
 }
