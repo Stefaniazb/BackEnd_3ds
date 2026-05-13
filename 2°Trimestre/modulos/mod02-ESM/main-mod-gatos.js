@@ -1,13 +1,7 @@
+import {banhoGato, tosaGato, alimentarGato} from "./mod-gatos.js"
+
 let racaViraLata = 'Vira-Lata'
 
-export function banhoGato(racaoGato, tipoBanho){
-
-}
-
-export function tosagATO(racaoGato, tipoTosa){
-
-}
-
-export function alimentarGato(racaoGato, tipoRacao){
-
-}
+console.log(banhoGato('Siamês' , 'Completo'))
+console.log(tosaGato('Singapura' , 'média'))
+console.log(alimentarGato('Siberiano' , 'Whiskas'))
