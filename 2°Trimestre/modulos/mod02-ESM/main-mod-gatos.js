@@ -1,7 +1,9 @@
-import {banhoGato, tosaGato, alimentarGato} from "./mod-gatos.js"
 
-let racaViraLata = 'Vira-Lata'
+//import {banhoGato, tosaGato, alimentarGato} from "./mod-gatos.js"
+import * as petShop from './mod-gatos.js'
+// * significa TUDO e "as" COMO, com sentido de APELIDO
 
-console.log(banhoGato('Siamês' , 'Completo'))
-console.log(tosaGato('Singapura' , 'média'))
-console.log(alimentarGato('Siberiano' , 'Whiskas'))
+console.log(petShop.alimentarGato('siamês', 'peixe'))
+console.log(petShop.banhoGato('singapura', 'com sabonete'))
+console.log(petShop.tosaGato('siberino', 'baixinha'))
+
